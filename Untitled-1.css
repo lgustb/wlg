@@ -1,0 +1,35 @@
+body {
+    background:rgb(83, 80, 255);
+    color: rgb(241, 241, 52);
+    font-family: "Times New Roman", Times, serif;
+    }
+h1 {
+    text-align: center
+}
+h2 {
+    color: white;
+    text-align: center
+}
+h3 {color: white}
+h4 {color: whitesmoke}
+p {
+    color: rgb(245, 236, 236);
+    font-size: 20px
+}
+.box-1 {
+    background-color: rgba(91, 159, 248, 0.418)
+}
+.container {
+    width:80%;
+    margin: auto
+}
+.container-1 {border:2px #ccc solid}
+.container-2 {width:15%;
+    margin: auto}
+.categorys {
+    border: 2px #ccc solid; color: blanchedalmond;
+}
+.categorys h2 {
+font-size:29px; color: blanchedalmond;  text-align: center
+}
+
