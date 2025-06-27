@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>my website</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+   
+<!-- this is the alertbox. -->
+<style>
+#alertoverlay{display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    background: #FFF;
+    width: 100%;}
+
+#alertbox{display: none;
+    position: fixed;
+    background: blue;
+    border:7px;
+    border-radius:10px; 
+    font-size:39px;}
+
+#alertbox > div > #alertboxhead{background:green; padding:10px;color:#FFF;}
+#alertbox > div > #alertboxfoot{ background: green; padding:10px; text-align:right; }
+</style><!-- remove padding for normal text alert -->
+
+<!-- this is the script part of alertbox. -->
+<script>
+    function CustomAlert() {
+        this.on = function (alert) {
+            var winW = window.innerWidth;
+            var winH = window.innerHeight;
+
+            alertoverlay.style.display = "block";
+            alertoverlay.style.height = window.innerHeight + "px";
+            alertbox.style.left = (window.innerWidth / 3.5) + "pt";
+            alertbox.style.right = (window.innerWidth / 3.5) + "pt"; // remove this if you don't want to have your alertbox to have a standard size but after you remove modify this line : alertbox.style.left=(window.inner.Width/4);
+            alertbox.style.top = (window.innerHeight / 10) + "pt";
+            alertbox.style.display = "block";
+            document.getElementById('alertboxhead').innerHTML = "Hi";
+            document.getElementById('alertboxbody').innerHTML = alert;
+            document.getElementById('alertboxfoot').innerHTML = '<button onclick="Alert.off()">OK</button>';
+        }
+        this.off = function () {
+            document.getElementById('alertbox').style.display = "none";
+            document.getElementById('alertoverlay').style.display = "none";
+        }
+    }
+    var Alert = new CustomAlert();
+</script>
+       <div id="alertoverlay"></div>
+<div id="alertbox">
+  <div>
+    <div id="alertboxhead"></div>
+    <div id="alertboxbody"></div>
+    <div id="alertboxfoot"></div>
+  </div>
+</div>
+<script>Alert.on("Welcome to my home on website!");</script>
+</head>
+<body>
+        <h1>Ligang Wang's website</h1>
+    <br>
+    <br>
+    <br>
+     <div class="container-2">
+     
+<button onclick="myFunction()">点这里，联系我吧</button>
+
+<script>
+function myFunction() {
+    window.open("https://zttomijs.us-east-1.clawcloudrun.com/contact/");
+}
+</script>
+    </div>
+    <br>
+    <br>
+
+    <div class="categorys">
+        <h2 id="top"">CONTENTS</h2>
+        <ul>
+            <li>
+                <a href="#1" style="font-size:20px; color:blanchedalmond">Introduce Myself</a>
+            </li>
+            <li>
+                <a href="#2" style="font-size:20px; color:blanchedalmond">My working experience in Qinghua University</a>
+                </li> 
+            <li>
+                <a href="#3" style="font-size:20px; color:blanchedalmond">My working experience in University of Science and Technology Beijing</a>
+            </li>    
+            <li>
+                <a href="#4" style="font-size:20px; color:blanchedalmond">Some Selected Books and Papers by Wang Ligang</a>
+            </li>   
+            <li>
+                <a href="#5" style="font-size:20px; color:blanchedalmond">My Other Websites</a>
+            </li>  
+            <li>
+                <a href="#6" style="font-size:20px; color:blanchedalmond">Please Contact me</a>
+            </li> 
+        </ul>
+    </div>
+<br>
+<br>
+<br>
+    <h1>Welcome to my home on internet</h1>
+      
+   <br>
+   <br>
+   <audio controls autoplay>
+        <source src="https://archive.org/download/AudreyHepburn/AudreyHepburn-MusicFromTheFilmsOfAudreyHepburn-MoonRiver2_64kb.mp3">
+   </audio>
+
+<br>
+<br>                                                                                                                           
+           <img src="https://1drv.ms/i/c/2fbfbeefadb42575/UQN1JbSt776_IIAv2GYAAAAAALEvjj2IKYKeZao">  
+<br>             
+           <img src="https://1drv.ms/i/c/2fbfbeefadb42575/IQN1JbSt776_IIAviYMAAAAAAV4lJvhY1dRJpEaBQCRRURE?width=425&height=562">
+           
+
+       
+    <br> 
+    <br>
+    <br>
+   <h4> 1. <a href="Russiasquare.html "style="color:yellow">俄罗斯方块</a></h4>
+    <br>  
+      
+    <br>
+     <br>
+    <br>
+   <h4> 1. <a href="deepseek_html_20250530_1f70fa.html "style="color:yellow">打地鼠游戏</a></h4>
+    <br>  
+      
+    <br>
+     <br>
+    <br>
+   <h4> 1. <a href="deepseek_html_20250531_c8d329.html "style="color:yellow">争上游扑克游戏</a></h4>
+    <br>  
+      
+    <br>
+    <br>
+  
+    <br>  
+   <iframe width="640" height="360" src="https://www.youtube.com/embed/SdzewdkJa-o" title="【正在直播：CCTV中文国际】全球新闻热点、时事点评、深度报道、纪录片、电视剧等 | LIVE NOW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+    <br>
+    
+    
+    <div class="container">
+        <div class="box-1">
+              <h2 id="1">Introduce myself</h2>
+                <p>
+                        I was a faculty member for 18 years at three Universities. During these years, one of my major jobs was researched, developed and facilitated courses of study on. These courses were mainly focused on Chemical and Energy areas for undergraduate students and graduate students (Please find relevant information inhttp://oldme.ustb.edu.cn/e_facultydetail.asp?ID=324). I have written fifty scientific papers on relevant periodicals, most of them were indexed by SCI(The Science Citation Index (SCI) is a citation index originally produced by the Institute for Scientific Information and created by Eugene Garfield.) or EI(EI Compendex is the broadest and most complete engineering literature database available in the world.).
+                          
+                        I did many translations and interpreting jobs after 1996. For Example, in February 2013, I worked as the interpreter for students in winter camp which taken place in Smiths Falls. (Please find relevant information in
+                        
+                        http://wintercampsmithsfalls.webs.com/
+                         
+                        I have four years tutorial experience for grade 9 to 12 secondary school students in Mathematics and Science in Smiths Falls, Brockville, and Ottawa.
+                          
+                        I also finished my criminal record check recently.
+                        </p>
+                        <a href="#top" style="color:yellow">GO TO TOP</a>
+   
+        <h2 id="2">My working experience in Qinghua University</h2>
+        <p>I worked as a postdoctoral scholar from September 2002 to July 2004 in the "Post-Doctoral Research Center" of The Department of Thermal Engineering. 
+ 
+            My responsibilities in the job included the following:
+             
+            ●    Complying with university and departmental standards and policies regarding the use of isotopes, chemicals, infectious agents, research animals, and human subjects as well as other policies regarding workplace safety.
+             
+            ●    Performing the necessary research as required by the faculty supervisor to a high standard and in accordance with all institutional regulations.
+             
+            ●    Working in a collegial and cooperative manner with the faculty supervisor and other co-workers.
+             
+            ●    Organizing and guiding the relevant scientific research team.
+             
+            ●    Maintenance of laboratory notebooks and/or other records of research activity.
+             
+            ●    Discussing and liaising with mentors in respect to the process of conducting research.
+             
+             
+            The main projects in scientific research in which I was involved included:
+             
+            ●    Scientific research project, “the Separation of Residual-carbon from Fly Ash Using Flotation-column & Mercury Pollution Control on Coal-combustion ", from January 2004 to December 2004. He acted as the project leader for this particular project and received an excellent final evaluation. His responsibilities are listed as follows: responsibility for the overall project planning and implementation, coordination of various parts of the whole project, and conducting research work in critical issues. The whole project included the use of a new column flotation to separate residual carbon in fly ash, with the separated residual carbon being used as a cheap substitute for activated carbon to remove mercury in coal-fired plants, and the removed mercury then being recycled.  The total cost of residual carbon is less than that of commercial activated carbon.
+             
+            ●    Scientific research project, “Fundamental Research on Coal-fired Pollutants Removal —Emissions and Control of Trace Heavy Metals Elements". He worked as Sub-Leader in this project. His responsibilities are listed as follows: planning and implementation the research for the emission of Trace Elements ( Hg, Se and As ) in the coal-burning process. His work involved organizing his team in experiment design, data collection and its mechanism study. The task of his team especially focused on the formation, migration, emission and suppression of mercury pollutants in coal-fired power plants.
+             
+           I have undertaken primary responsibility for the development of my research projects independently and successfully. I published at least four academic papers which were indexed by EI during this period. He was rewarded with "a degree of excellence" in my final evaluation upon leaving the Post-Doctoral Research Center.
+            </p>
+   
+            <a href="#top" style="color:yellow">GO TO TOP</a>
+
+    <h2 id="3">My working experience in University of Science and Technology Beijing</h2>
+        <p>JOB DISCRIPTION
+                	After graduation from the Bachelor's degree, I was a faculty member for 18 years at three Universities. My major work was focused on Mineral Resource Exploring，Mining，Pre-combustion Technology (for example, Clean Coal Technology), Clean Combustion and Relative Pollution Control. 
+                	Recently, much of my attention has been focused on Heavy-metal (Mercury, Arsenic and Selenium) Pollution Control in Coal Combustion. 
+                	Ground Penetrating Radar（GPR） investigation of coal mine soils with the mapping of the depth to spoil after rehabilitation. A field trial which able to map spoil depth around six times faster than augering and carried out as part of a research project at Xilin Gol Mining Area in Inner Mongolia of China.
+                	Geothermal Survey of Alberta and Ontario，including：
+                1.	Physiographic Regions of Alberta and Ontario
+                2.	Generalized GIS Geothermal Data and Map of Ontario
+                3.	Aqueous Chemistry Amalyses
+                4.	Temperature-depth data
+                5.	Individual well files
+                6.	Lithologic logs
+                7.	Geophysical logs
+                8.	Thermal-conductivity data
+                	Have practiced in several coal preparation plants in Shanxi province of China from 1992 to 1996. These plants were located in Xishan mining area in Gujiao (a city of Shanxi province). Familiar with the overall flow process of coal preparation and each associated operations. Trained many Workshop Directors onsite as instructor. Took part in a design of Coal Preparation Plant which named Malan as a main team member in 1995. In summary, the relevant experience can be sum up as:
+                1.	Design, development and optimization of Coal preparation plant flowsheet.
+                2.	Exposure to Modern Coal Beneficiation Technology & Process Designing.
+                3.	Selection of equipment for coal beneficiation / washeries plants.
+                4.	Experience in Coal Handling & Coal Washer Project Work from concept to commission Operations
+                
+                Research Experience
+                	After graduation from the Bachelor's degree, I was a faculty member for 18 years at three Universities in China. During this period, I have done research in mineral exploring， disposal (coal, fly ash and zeolite ore separation), clean combustion and relative pollution control. For example, separation of Unburned-Carbon from Fly Ash.
+                	For the last 10 years, much of my attention has been focused on coal and biomass preparation and heavy-metal pollution control in coal combustion. 
+                	In addition, I have been involved internationally in many scientific projects. These projects covered from Pre-Combustion Technology (Mainly on Clean Coal Technology) to post-combustion technology. Some typical scientific projects are list as following:
+                1.	Cooperative project of Mining Area in Inner Mongolia (of People’s Republic of China). "Mapping rehabilitated coal mine soils in Xilin Gol Mining Area using Ground Penetrating Radar （GPR）".  (As major participant, 1999—2000) 
+                Responsibility：Responsible for data processing, analysis and interpretation combined with the actual lithologic data calibration by using special computer programs which compiled by myself.
+                2.	Cooperative project of Shishi (name of a city) power plant in Fujian province (of People’s Republic of China). "The primary design of Dual-jet column flotation separation".  (As major participant, 2000—2002)
+                Responsibility：Installation and adjustment of the Dual-jet column system and relevant products statistical analysis by using SPSS software.
+                3.	Project supported by National Natural Science Foundation of China "the floatation column separation of unburned carbon and its application in mercury control". (No. 50306010) (As project principal, 2004-01—2004-12)
+                Responsibility：Responsible for the preparation, conduct, and administration of whole research project in compliance with applicable agreement and regulations. Oversight financial aspects of the whole project. Providing the description and completing final reports of the project.
+                4.	National Key Basic Research Development Program of People’s Republic of China (973 plan) (No. G2006CB200304).  "Environmental Stability of Mercury and Other Heavy Metal Removal System via Combined Dry Methods".  (As project principal, 2006—2010)
+                Responsibility：Carry out the project's financial plan as presented in the funded proposal, make changes to the plan following a prescribed set of policies and procedures. Report project progress to the sponsor as outlined in the terms of award. Maintain an accurate record of project related expenses. Submit final reports of the projects with all applicable sponsor rules, regulations and conditions of the award
+                5.	National High Technology Research and Development Program People’s Republic of China (863 Program) (No. 2008AA302101). "Novel Technology of Desulfurization and Mercury-removal in Coal-fired Boiler Flue Gas— Environmental Stability of Desulfurized and Mercury-removed By-product". (As project principal, 2008—2010)
+                Responsibility：Managing, monitoring, and integrity of the design, conduct, and reporting of the whole research project. Directing and oversight of compliance, financial, personnel, and other related aspects of the research project and for coordination with different units to assure research in accordance with regulations and sponsoring agency policies and procedures.
+                
+                </p>
+
+                <a href="#top" style="color:yellow">GO TO TOP</a>   
+            </div>
+        </div>
+<br>
+
+<h2 id="4">Some Selected Books and Papers by Wang Ligang</h2>
+<h3> Books by Wang Ligang </h3>
+<ul><li> Wang Ligang, Liu Baiqian.  Mercury Pollution and its Control of Coal Combustion.  Monograph（Textbook） ISBN: 9787502445782, Metallurgical Industry Press, 2008-07</li>
+<li> Liu Baiqian, Hong Hui, Wang Ligang.  Introduction to Energy Engineering. Monograph（Textbook）, ISBN：9787122044532, Chemical Industry Press, 2009-04 </li></li></ul>
+        
+        
+<h3>Some Selected Papers by Wang Ligang</h3> 
+<ul><li>        Wang Ligang, Peng Suping, Luo Liping. Improvements on Decarbonization Technology in Fly Ash. Coal science and technology, 2001, 29(8): 21~23	   
+    </li>
+<li>        Wang Ligang, Chen Changhe, Peng Suping. Experimental Study on Fluoric Acid Adsorption of Unburned Carbon in Flue Gas. Environmental engineering, 2002, 32(6): 157~159	
+    </li>
+<li>        Wang Ligang, Peng Suping. The Study of Coal Preparation Technologies for Removing Hazardous Air Pollutant Trace Element. Environmental Science & Technology, 2003, 26(1): 5~7	   
+    </li>
+<li>        Wang Ligang, Peng Suping, Chen Changhe. The Experimental Study on Hg0 Adsorption of Fly Ash in Flue Gas. Chinese Journal of Environmental Science, 2003, 24(6): 59~64  EI 2004017806093  
+    </li>
+<li>        Wang Ligang, Chen Changhe, Kolker, Kruse H. Mineralogy of Coal Clean Combustion By-products. Journal of university of science and technology Beijing, 2004, 11(4): 293~296  EI 2004478470211	   
+    </li>
+<li>        Wang Ligang, Chen Changhe. Elemental Mercury Adsorption by Residual Carbon Separated from Fly Ash. Journal of University of Science and Technology Beijing, 2004, 26(4): 353~356  EI2004478470232	
+    </li>
+<li>        Wang Ligang, Chen Changhe. Exploration of Removing Unburned Carbon from Fly Ash by Column Flotation. Journal of the China Coal Society, 2004, 29(6): 717~720  EI 2005229137585	
+</li>
+<li>        Wang Ligang, Chen Changhe, Kolker, Kruse H. Vapor-phase Elemental Mercury Adsorption by Residual Carbon Separated from Fly Ash. Journal of Environmental Sciences, 2005, 17(3): 518~520 EI2005369339035
+</li>
+<li>       Wang Ligang, Chen Changhe, Kruse H.Kolker.  Modeling Mercury Adsorption on Carbon Particles in Simulated Flue Gas.   Journal of Southeast University. VOL22，No.2,June 2006：256-259  SCI 927JJ    EI 20063610101369	   
+    </li>
+<li>       Wang Ligang, Chen Changhe.   The Study of Environmental Stability of Mercury in Combustion By-products. Conference of mercury as a global pollutant, Madison, Wisconsin, USA, August 6-11, 2006（International Conference Paper） 	
+    </li>
+<li>       Wang Ligang, Wu Dapeng, Chen Changhe.   Study of Mercury Release from Coal Combustion By-products.  The 4th international conference on combustion, incineration/pyrolysis and emission control, September 26-29, 2006 at Kyoto University, Kyoto, JAPAN（International Conference Paper） 	   
+    </li>
+<li>       Wang Ligang, Wang Xiong, Chen Changhe. Transportation Behavior of Mercury in Fly Ash in Leaching Process. Environmental protection science, 2008, 34 (04): 19~21.   
+    </li></ul>
+        
+           
+       <a href="#top" style="color:yellow">GO TO TOP</a>
+       <br>
+       <br>
+    <h2 id="5">My other websites</h2>
+    
+    <h3> <a href="https://zttomijs.us-east-1.clawcloudrun.com/"style="color:white">艾迪验房公司</a></h3>
+    
+    <h3> <a href="http://canada-wlg-overseas-education-service.webflow.io/"style="color:white">canada-wlg-overseas-education-service.webflow.io</a></h3>
+    <br>
+   
+    <a href="#top" style="color:yellow">GO TO TOP</a>
+<br>
+    <br>
+
+    
+    <h2 id="6">Please Contact me</h2>
+    
+    <div class="container-1">
+
+     <a href="mailto:lgustb@gmail.com?subject=Hello%20again"><h4>Send me Email</h4></a>
+     
+     <a href="https://zttomijs.us-east-1.clawcloudrun.com/contact/"><h4>点这里，联系我吧</h4></a>  
+
+    </div> 
+  
+  <br>
+    
+</body>
+<iframe src="https://1drv.ms/w/c/2fbfbeefadb42575/IQN1JbSt776_IIAvDGMAAAAAAT3yqBDIItq6N50Cl6x-qgQ" width="1200" height="900" frameborder="0" scrolling="no"></iframe>
+
+<iframe src="https://1drv.ms/v/c/2fbfbeefadb42575/IQN1JbSt776_IIAv848AAAAAAX21JyZ7zsvwvkZ4pdHSW_Y" width="1120" height="780" frameborder="0" scrolling="no" allowfullscreen></iframe>    
+
+  <br>
+    
+   <a href="#top" style="color:yellow">GO TO TOP</a>
+    
+</html>
